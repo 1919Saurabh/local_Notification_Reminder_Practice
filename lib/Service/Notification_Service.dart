@@ -32,7 +32,7 @@ class LocalNotification {
     );
 
     DateTime scheduleDate = DateTime.now().add(
-      const Duration(seconds: 10),
+      const Duration(seconds: 2),
     );
 
     // Combine both android and ios.
@@ -53,3 +53,6 @@ class LocalNotification {
     );
   }
 }
+
+
+//https://www.fluttercampus.com/guide/273/add-action-button-on-local-notification-flutter/
